@@ -6,9 +6,9 @@ int a,b,i;
 scanf("%d %d",&a,&b);
 for(i=a;i<=b;i++)
 {
-for(j=2;j<=a-1;j++)
+for(j=2;j<=a/2;j++)
 {
-if(a%2!=0)
+if(a%j!=0)
 {
 printf("%d",a);
 }
